@@ -1,0 +1,88 @@
+A database server is the key to solving the problems of information management. In general, a server must reliably manage a large amount of data in a multi-user environment so that many users can concurrently access the same data. All this must be accomplished while delivering high performance. A database server must also prevent unauthorized access and provide efficient solutions for failure recovery.
+The Oracle server provides efficient and effective solutions with the following features: 
+
+ 
+
+client/server environments (distributed processing)  
+
+To take full advantage of a given computer system or network, Oracle allows processing to be split between the database server and the client application programs. The computer running the database management system handles all of the database server responsibilities while the workstations running the database application concentrate on the interpretation and display of data.   Projects with source code  Project In C,Restaurant billing Project In C++ Travelling Agency Project In C++,Hospital Management System Project in C++,Restaurant
+
+large databases and space management 
+
+Oracle supports the largest of databases, which can contain terabytes of data. To make efficient use of expensive hardware devices, Oracle allows full control of space usage.  
+
+many concurrent database users 
+
+Oracle supports large numbers of concurrent users executing a variety of database applications operating on the same data. It minimizes data contention and guarantees data concurrency.  Supermarket Billing System.  Automobile showroom management system. Front end: Visual basic 6.0. Back end:  The source code of this project is available in C
+
+connectibility 
+
+Oracle software allows different types of computers and operating systems to share information across networks.  
+
+High transaction processing performance 
+
+Oracle maintains the preceding features with a high degree of overall system performance. Database users do not suffer from slow processing performance.    The project “Billing system” is an application to automate the process of ordering  Management System).  Billing Report.
+
+High availability 
+
+At some sites, Oracle works 24 hours per day with no down time to limit database throughput. Normal system operations such as database backup and partial computer system failures do not interrupt database use.  
+
+controlled availability  
+
+Oracle can selectively control the availability of data, at the database level and sub-database level. For example, an administrator can disallow use of a specific application so that the application's data can be reloaded, without affecting other applications.  Restaurant Management System is Designed to automate common restaurant  Billing , Inventory & Sales reports.  Code Plex Project Hosting for Open Source .
+
+openness, industry standards  
+
+Oracle adheres to industry accepted standards for the data access language, operating systems, user interfaces, and network communication protocols. It is an open system that protects a customer's investment.
+
+Oracle also supports the Simple Network Management Protocol (SNMP) standard for system management. This protocol allows administrators to manage heterogeneous systems with a single administration interface. supermarket billing projects Search and  2.Sales management 3.billing 4.Advanced reports  management system c language source code, 
+
+manageable security 
+
+To protect against unauthorized database access and use, Oracle provides fail-safe security features to limit and monitor data access. These features make it easy to manage even the most complex design for data access.  
+
+database enforced integrity  
+
+Oracle enforces data integrity, business rules that dictate the standards for acceptable data. This reduces the costs of coding and managing checks in many database applications.  The source code contain advance coding specially on how to manipulate data using SQL  Manual of this billing System or a user's guide.  Visual Basic Tutorial.
+
+portability 
+
+Oracle software works under different operating systems. Applications developed for Oracle can be ported to any operating system with little or no modification.  
+
+compatibility 
+
+Oracle software is compatible with industry standards, including most industry standard operating systems. Applications developed for Oracle can be used on virtually any system with little or no modification.  
+
+distributed systems 
+
+For networked, distributed environments, Oracle combines the data physically located on different computers into one logical database that can be accessed by all network users. Distributed systems have the same degree of user transparency and data consistency as non-distributed systems, yet receive the advantages of local database management.Download free Hospital Management System (HMS) software project with source code developed in VB.Net  Crystal Reports etc. Software is developed based on 3.
+
+Oracle also offers the heterogeneous option that allows users to access data on some non-Oracle databases transparently. 
+
+replicated environments 
+
+Oracle software lets you replicate groups of tables and their supporting objects to multiple sites. Oracle supports replication of both data- and schema-level changes to these sites. Oracle's flexible replication technology supports basic primary site replication as well as advanced dynamic and shared-ownership models.  Free download Billing system VB project with source code. Billing  on Billing system with VB Source Code and reports.  Management System Project in VB.
+
+
+
+MCA PROJECT ON Restaurant billing management system
+The following sections provide a comprehensive overview of the Oracle architecture. Each section describes a different part of the overall architecture.
+
+The Oracle server is an object-relational database management system that provides an open, comprehensive, and integrated approach to information management. An Oracle server consists of an Oracle database and an Oracle server instance.
+Final year projects and mini VB.NET projects for students with full source code and project report ,  Telephone Billing Management System Project Report; Every time a database is started, a system global area (SGA) is allocated and Oracle background processes are started. The system global area is an area of memory used for database information shared by the database users. The combination of the background processes and memory buffers is called an Oracle instance.
+An Oracle instance has two types of processes: user processes and Oracle processes.
+
+·              A user process executes the code of an application program (such as an Oracle Forms application) or an Oracle Tool (such as Oracle Enterprise Manager).
+
+·              Oracle processes are server processes that perform work for the user processes and background processes that perform maintenance work for the Oracle server.
+
+FREE DOWNLOAD Restaurant billing management system project report
+Free Download Restaurant Billing System Project in C++ Source  Seminar Report, PPT, PDF, Source Code, Project  Sales and Inventory Management System Project in VB. Some hardware architectures (for example, shared disk systems) allow multiple computers to share access to data, software, or peripheral devices. Oracle with the Parallel Server option can take advantage of such architecture by running multiple instances that share a single physical database. In appropriate applications, the Oracle Parallel Server allows access to a single database by the users on multiple machines with increased performance.
+STRUCTURED  QUERY LANGUAGE (SQL) - Restaurant billing management system project report
+Shoe store billing management system Project is a  System Project vb.net open Source code.  details with source code and project report will help. SQL (pronounced SEQUEL) is the programming language that defines and manipulates the database. SQL databases are relational databases; this means simply that data is stored in a set of simple relations. A database can have one or more tables. Each table has columns and rows. A table that has an employee database, for example, might have a column called employee number and each row in that column would be an employee's employee number.This Restaurant Billing System Project is developed using C#  2.Sales management 3.Billing 4.Advanced reports Login  of source code.
+
+You can define and manipulate data in a table with SQL statements. You use data definition language (DDL) statements to set up the data. DDL statements include statements for creating and altering databases and tables.
+
+You can update, delete, or retrieve data in a table with data manipulation language (DML). DML statements include statements to alter and fetch data. The most common SQL statement is the SELECT statement, which allows you to retrieve data from the database.
+
+In addition to SQL statements, the Oracle server has a procedural language called PL/SQL. PL/SQL enables programmers to program SQL statements. It allows you to control the flow of a SQL program, to use variables, and to write error-handling procedures. There are three utilities for moving a subset of an Oracle database from one database to another: Export, Import, and SQL*Loader.

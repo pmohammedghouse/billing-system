@@ -1,0 +1,12 @@
+create table customerdata(bill_no number(10),customer_name varchar2(20),time varchar2(10),date1 varchar2(10),amount_pay number(10));
+
+
+create table cashierdata(cashier_id number(5),name varchar2(20),password varchar2(8),email_id varchar2(20),phone_no number(10));
+
+
+
+create table addnew(product_id number(5),product_name varchar2(20),price number(5),quantity number(5));
+
+
+
+create table cashierlogindata(s_no number(5),cashier_id number(5),name varchar2(20),login_time varchar2(10),logout_time varchar2(10),date1 varchar2(10));
